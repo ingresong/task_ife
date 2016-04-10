@@ -1,0 +1,60 @@
+.content1 {
+	padding: 20px;
+	margin: 20px;
+	border: 1px solid #999;
+	background-color: #eee;
+}
+/*左边logo栏*/
+.left {
+	padding: 20px;
+	width: 198px;
+	background-color: white;
+	border: 1px solid #999;
+}
+.content1 .left {
+	float: left;
+}
+.logo {
+	background: url("../images/logo.png") left top;
+	width: 80px;
+	height: 80px;
+}
+.left p {
+	font-weight: bold;
+}
+/*左边栏的logo*/
+.left .logo {
+	float: left;
+	margin-right: 10px;
+}
+/*右边的logo在父元素中居中*/
+.right .logo {
+	margin: 20px auto;
+}
+.right {
+	padding: 20px;
+	width: 120px;
+	border: 1px solid #999;
+	background-color: white;
+	float: right;
+}
+.middle {
+	padding: 20px;
+	background-color: white;
+	border: 1px solid #999;
+	margin-left: 260px;
+	margin-right: 180px;
+}
+.middle p {
+	text-indent: 2em;
+	font-size: small;
+	line-height: 1.5em;
+}
+/*.clearfix {
+	overflow: auto;
+}*/
+.content1:after {
+	content: "";
+	display: block;
+	clear: both;
+}
